@@ -1,6 +1,7 @@
 # Daggerfall Dungeon Generation
-
 This is a 3D Dungeon Generator that I’ve been working on for a small roguelite game. The idea is heavily inspired by The Elder Scrolls II: Daggerfall from 1996, a game with twisting mazes. The game had a certain charm to it with the unapologetically enormous dungeons that you could get lost in for hours, yet at the same time seemingly simple approach to its layout, which seemed quite straight-forward and a fun challenge to attept at replicating.  
+
+<a href="https://i.imgur.com/wwIm15J.mp4">![](https://raw.githubusercontent.com/david-crosson/dungeongenerator/main/turnaround.gif)</a>
 
 So the gameplay that stuck out to me in Daggerfall was how the game separated rooms and corridors. Where rooms felt safe and familiar, corridors gave a sense of dread and unease. While in that game, dungeon segments were done by hand and then stitched together, I wanted to try my hand at doing something similar but with each piece completely randomised. 
 
