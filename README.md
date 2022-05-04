@@ -6,10 +6,10 @@ This is a 3D Dungeon Generator that I’ve been working on for a small roguelite
 So the gameplay that stuck out to me in Daggerfall was how the game separated rooms and corridors. Where rooms felt safe and familiar, corridors gave a sense of dread and unease. While in that game, dungeon segments were done by hand and then stitched together, I wanted to try my hand at doing something similar but with each piece completely randomised. 
 
 Goals:  
-• Explorable dungeon with corridors and rooms  
-• No dead ends; every path should lead to a room  
-• Allow dungeon to loop back into itself  
-• Done in UE5, because I dig that and it's new and it's hot
+• Explorable dungeon with corridors and rooms.  
+• No dead ends; every path should lead to a room.  
+• Allow dungeon to loop back into itself.  
+• Done in UE5, because I dig that and it's new and it's hot.
 
 So in order to do this, I felt that doing it with a 3D grid felt overkill. The idea is that, as long as every separate piece of the dungeon follows a grid size, there is no need to define the grid programmatically. Instead, each modular piece is given specific entry points where a connection can occur.  
 
